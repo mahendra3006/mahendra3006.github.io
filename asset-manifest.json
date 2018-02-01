@@ -1,8 +1,13 @@
 {
-  "main.css": "static/css/main.24d01513.css",
-  "main.css.map": "static/css/main.24d01513.css.map",
-  "main.js": "static/js/main.ef29e4fb.js",
-  "main.js.map": "static/js/main.ef29e4fb.js.map",
-  "static\\media\\bg-red.jpg": "static/media/bg-red.41a0c796.jpg",
-  "static\\media\\profile-image.jpg": "static/media/profile-image.0d37cbfd.jpg"
+  "main.css": "static/css/main.ba988a84.css",
+  "main.css.map": "static/css/main.ba988a84.css.map",
+  "main.js": "static/js/main.d477299f.js",
+  "main.js.map": "static/js/main.d477299f.js.map",
+  "static\\media\\bg-mac.jpeg": "static/media/bg-mac.8aa138c2.jpeg",
+  "static\\media\\glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
+  "static\\media\\glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
+  "static\\media\\glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
+  "static\\media\\glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
+  "static\\media\\glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static\\media\\profile-image.jpg": "static/media/profile-image.e9affa8f.jpg"
 }
