@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import ProfileImage from "./ProfileImage";
 
 export default class LandingPage extends Component {
