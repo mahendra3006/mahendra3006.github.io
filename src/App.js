@@ -93,7 +93,9 @@ class App extends Component {
     render() {
         return (
             <div className="float-left">
-                <LandingPage></LandingPage>
+                <LandingPage>
+
+                </LandingPage>
                 <AboutMe/>
             </div>
         )
