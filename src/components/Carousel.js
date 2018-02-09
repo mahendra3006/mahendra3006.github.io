@@ -11,16 +11,16 @@ export default class Carousel extends Component {
 
     render() {
         return (
-            <div>
-                <div className="disp-inln-bl"><input className="nav-button" type="button" value="<" onClick={this.onPreviousClick.bind(this)}/></div>
-                <div className="disp-inln-bl tech-card">{this.props.children[this.state.currentIndex]}</div>
-                <div className="disp-inln-bl"><input className="nav-button" type="button" value=">" onClick={this.onNextClick.bind(this)}/></div>
+            <div className="carousel">
+                <div><input className="nav-button flex-grow-1" type="button" value="<" onClick={this.onPreviousClick.bind(this)}/></div>
+                <div className="flex-grow-2">{this.props.children[this.state.currentIndex]}</div>
+                <div><input className="nav-button flex-grow-1" type="button" value=">" onClick={this.onNextClick.bind(this)}/></div>
             </div>
         )
     }
 
     onPreviousClick() {
-        if(this.state.currentIndex >= 0){
+        if(this.state.currentIndex > 0){
             this.setState(state => {
                 state.currentIndex--;
                 return state;
@@ -29,7 +29,7 @@ export default class Carousel extends Component {
     }
 
     onNextClick() {
-        if(this.state.currentIndex <= this.props.children.length){
+        if(this.state.currentIndex < this.props.children.length -1){
             this.setState(state => {
                 state.currentIndex++;
                 return state;

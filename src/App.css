@@ -125,10 +125,6 @@ ul.navbar li{
 }
 
 .tech-cards ul{
-    list-style: none;
-    width: 80%;
-    min-width: 60%;
-    list-style: none;
     margin: 0 auto;
 }
 
@@ -155,15 +151,53 @@ ul.navbar li{
     font-size: 5rem;
 }
 
-.tech-card{
-    text-align: center;
-    display: inline-block;
-    width: 80%;
-    background: pink;
-    margin: 2%;
-    padding: 5%;
-}
-
 .disp-inln-bl{
     display: inline-block;
+}
+
+.work-experience{
+    background-size: cover;
+    background: cadetblue;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.hidden{
+    display: none;
+}
+
+.company-logo{
+    width: 10rem;
+}
+
+.company-tile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pie-chart{
+    width: 20rem;
+    height: 10rem;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+    padding:1rem;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+    padding:1rem;
+}
+
+p{
+    font-size: medium;
 }
