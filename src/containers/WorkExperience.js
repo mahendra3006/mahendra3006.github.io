@@ -84,30 +84,41 @@ export default class WorkExperience extends Component {
                         <CompanyTile chartData={this.state.compassites} logo={compassLogo}
                                      options={this.props.chartOptions}
                                      projects={[{
-                                         header: "Lucror Analytics", domain: "Financial", description: <p>
+                                         header: "Lucror Analytics", domain: "Financial", description: <p className="font-medium">
                                              Lucror Analytics is a Singapore based firm providing financial analysis of
-                                             various
-                                             organizations of Europe and Asia. We created an online portal with a
-                                             subscription model
-                                             for the clients to get their analysis information.
+                                             various organizations of Europe and Asia. We created an online portal with
+                                             a subscription model for the clients to get their analysis information.
+                                             Team Size: 20
+                                             Role: Developed multiple screens from comps and generated user reports and
+                                             bug-fixing.
+                                             Technologies: .NET MVC, JavaScript, MSSQL Server 2008
                                          </p>
                                      },
                                          {
-                                             header: "Fly High Marine", domain: "Flight Booking", description: <p>
-                                             Lucror Analytics is a Singapore based firm providing financial analysis of
-                                             various
-                                             organizations of Europe and Asia. We created an online portal with a
-                                             subscription model
-                                             for the clients to get their analysis information.
+                                             header: "Fly High Marine", domain: "Flight Booking", description: <p className="font-medium">
+                                             FHM is an organization providing airline and hotel bookings for Marines and
+                                             Shipping Crew members. They are using Amadeus, Galileo and Mystifly APIs
+                                             for seat availability and reservations. We provided an online portal to
+                                             replace the manual tasks involved.
+                                             Team Size: 10
+                                             Role: Developed the entire UI layer in Angular.js, Jasmine JS, Play
+                                             Framework controllers and helped in database design. Also, took part in
+                                             analysis, development, bug-fixing and technical discussions with client.
+                                             Technologies: Angular JS , Play Framework, Spring AOP, Spring DI, Web
+                                             Sockets, Amadeus API, Redis and MySQL.
                                          </p>
                                          },
                                          {
-                                             header: "Fusion Charts", domain: "Developer Plugin", description: <p>
-                                             Lucror Analytics is a Singapore based firm providing financial analysis of
-                                             various
-                                             organizations of Europe and Asia. We created an online portal with a
-                                             subscription model
-                                             for the clients to get their analysis information.
+                                             header: "Fusion Charts", domain: "Developer Plugin", description: <p className="font-medium">
+                                             FusionCharts is a Bangalore based organization, providing for Enterprise
+                                             Charting Solutions to over 500 international clients. They have created an
+                                             open-source API document generator based on JSDOC for creating the
+                                             descriptions for their charts.
+                                             Team Size: 10
+                                             Role: Developed multiple plugins for parsing different keywords. Also,
+                                             created test-suites using Jasmine along with bug-fixing.
+                                             Technologies: Technologies: JavaScript, Node JS, Require JS, Jasmine,
+                                             Postgres DB.
                                          </p>
                                          }
                                      ]}>
@@ -116,10 +127,8 @@ export default class WorkExperience extends Component {
                     <CarouselItem>
                         <CompanyTile chartData={this.state.nextgen} logo={nextgenLogo} options={this.props.chartOptions}
                                      projects={[{
-                                         header: "MIRTH RESULTS", domain: "Healthcare Cloud Service", description: <p>
-                                             Domain – Healthcare Cloud Service
-                                             Duration - 6 Months
-                                             Solution - Mirth results is a Healthcare data repository for aggregating
+                                         header: "MIRTH RESULTS", domain: "Healthcare Cloud Service", description: <p className="font-medium">
+                                             Mirth results is a Healthcare data repository for aggregating
                                              data from
                                              different health providers and provide seamless data transfers between
                                              these
@@ -139,10 +148,9 @@ export default class WorkExperience extends Component {
                                          </p>
                                      },
                                          {
-                                             header: "NEXTGEN NOW", domain: "Flight Booking", description: <p>
-                                             Domain – Healthcare Cloud Service
-                                             Duration – 1 Year
-                                             Solution - NGNow was a Healthcare domain product which aims to provide
+                                             header: "NEXTGEN NOW", domain: "Flight Booking", description: <p className="font-medium">
+
+                                             NGNow was a Healthcare domain product which aims to provide
                                              clinical,
                                              financial and connectivity solutions for ambulatory, inpatient and dental
                                              provide.
@@ -169,7 +177,7 @@ export default class WorkExperience extends Component {
                                      projects={[{
                                          header: "HELABA FINANCIAL APPLICATION",
                                          domain: "Banking and Financial",
-                                         description: <p>
+                                         description: <p className="font-medium">
                                              Helaba is a bank based out of Germany. SAP is proving a custom development
                                              solution
                                              to Helaba using the latest S4 HANA cloud platform along with smart
@@ -190,13 +198,14 @@ export default class WorkExperience extends Component {
                                              completed
                                              modules to prod and test servers.
 
-                                             SAP UI5, Smart Templates, Draft, Hana Cloud Platform, HCC, OPA, QUnit.
+                                             Technologies: SAP UI5, Smart Templates, Draft, Hana Cloud Platform, HCC,
+                                             OPA, QUnit.
                                              Team Size: 40
                                          </p>
 
                                      },
                                          {
-                                             header: "GAMIFICATION", domain: "Cloud Service", description: <p>
+                                             header: "GAMIFICATION", domain: "Cloud Service", description: <p className="font-medium">
                                              Gamification is a service provided in the SAP HANA Cloud platform to gamify
                                              various
                                              configurable data. We used this service to convert monotonous and boring

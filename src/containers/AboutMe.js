@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Carousel from "./Carousel";
-import CarouselItem from "./CarouselItem";
+import Carousel from "../components/Carousel";
+import CarouselItem from "../components/CarouselItem";
 
 export default class AboutMe extends Component {
     render() {
         return (
             <div className="about-me">
                 <h3 className="center-align">About Me</h3>
-                <p>I am a Software Engineer based out of Bangalore, India,having keen interest in Frontend
+                <p className="font-large">I am a Software Engineer based out of Bangalore, India,having keen interest in Frontend
                     Technologies.I have
                     experience in React JS, Angular JS, Jquery, Javascript, HTML, CSS. I speak fluent English,Hindi and
                     few other
@@ -16,7 +16,7 @@ export default class AboutMe extends Component {
                     experience. I
                     love Javascript and love to explore the host of libraries and frameworks available for the language.
                 </p>
-                <div className="center-align">
+                <div className="tech-card">
                     <Carousel>
                         <CarouselItem>
                             <span>HTML 5</span>
