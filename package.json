@@ -1,0 +1,44 @@
+{
+  "name": "mahendra3006.github.io",
+  "version": "1.0.0",
+  "description": "Mahendra Singh - Web Developer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahendra3006/mahendra3006.github.io.git"
+  },
+  "author": "Mahendra Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahendra3006/mahendra3006.github.io/issues"
+  },
+  "homepage": "https://mahendra3006.github.io",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "chart.js": "^1.1.1",
+    "lodash": "^4.16.4",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-chartjs": "^1.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "seamless-immutable": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
