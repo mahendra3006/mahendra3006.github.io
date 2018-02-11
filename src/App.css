@@ -125,9 +125,8 @@ ul.navbar li{
 }
 .tech-card {
     text-align: center;
-    background: #d25726a1;
+    background: #b5eef28f;
     padding: 2rem 0;
-    border: 0.1rem solid cadetblue;
     border-radius: 5rem 0;
     margin: 5%;
 }
@@ -169,7 +168,7 @@ input:focus{
 
 .work-experience{
     background-size: cover;
-    background: #1ad23270;
+    background: #1ad2323b;
     width: 100%;
     height: 100vh;
     display: inline-block;
