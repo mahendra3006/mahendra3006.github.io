@@ -1,44 +1,53 @@
 {
   "name": "mahendra3006.github.io",
-  "version": "1.0.0",
-  "description": "Mahendra Singh - Web Developer",
+  "private": true,
+  "description": "Mahendra Singh personal site",
+  "version": "1.2.2",
+  "homepage": "https://mahendra3006.github.io",
+  "author": {
+    "name": "Mahendra Singh",
+    "email": "mahendra3006@outlook.com",
+    "url": "https://mahendra3006.github.io"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahendra3006/mahendra3006.github.io.git"
+    "url": "https://github.com/mahendra3006/mahendra3006.github.io"
   },
-  "author": "Mahendra Singh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mahendra3006/mahendra3006.github.io/issues"
-  },
-  "homepage": "https://mahendra3006.github.io",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "chart.js": "^1.1.1",
-    "lodash": "^4.16.4",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.32.0",
-    "react-chartjs": "^1.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
-    "seamless-immutable": "^6.3.0"
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "test": "npm run lint && npm run security-check && npm run bundle",
+    "deploy": "gh-pages -b 'master'"
   },
+  "dependencies": {},
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.1"
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "create-react-class": "^15.6.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^0.14.0",
+    "moment": "^2.19.4",
+    "nuka-carousel": "^2.0.0",
+    "prop-types": "15.7.2",
+    "react": "^16.8.4",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.8.4",
+    "react-modal": "^2.4.1",
+    "react-router": "^3.0.0",
+    "superagent": "^3.8.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-s3-plugin": "^0.9.0"
   }
 }
