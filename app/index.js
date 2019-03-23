@@ -6,9 +6,9 @@ import {Routes} from './routes';
 
 function getResumePath() {
     if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
-        return '/public/resume.json';
+        return '/dist/resume.json';
     }
-    return '/public/resume.example.json';
+    return '/dist/resume.example.json';
 }
 
 function getNavigation() {

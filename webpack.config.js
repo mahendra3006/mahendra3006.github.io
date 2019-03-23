@@ -12,7 +12,7 @@ module.exports = {
     ],
 
     output: {
-        path: join(__dirname, 'public'),
+        path: join(__dirname, 'dist'),
         filename: 'bundle.js'
     },
     module: {
@@ -35,7 +35,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebPackPlugin({
-            template: resolve(__dirname, 'public', 'index.html'),
+            template: resolve(__dirname, 'dist', 'index.html'),
             filename: './index.html'
         }),
         new webpack.HotModuleReplacementPlugin()
