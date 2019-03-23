@@ -21,7 +21,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "test": "npm run lint && npm run security-check && npm run bundle",
-    "deploy": "gh-pages -b master -d public"
+    "deploy": "gh-pages -b master -d ./public"
   },
   "dependencies": {},
   "devDependencies": {
