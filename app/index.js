@@ -4,11 +4,15 @@ const ReactDOM = require('react-dom');
 
 import {Routes} from './routes';
 
+import "../css/default.css";
+import "../css/layout.css";
+import "../css/media-queries.css";
+
 function getResumePath() {
     if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
-        return '/dist/resume.json';
+        return '../resume.json';
     }
-    return '/dist/resume.example.json';
+    return '../resume.example.json';
 }
 
 function getNavigation() {

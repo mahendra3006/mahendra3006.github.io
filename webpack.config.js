@@ -29,13 +29,21 @@ module.exports = {
                 use: {
                     loader: 'html-loader'
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3|json|eot)$/,
+                loader: "file-loader"
             }
         ]
     },
 
     plugins: [
         new HtmlWebPackPlugin({
-            template: resolve(__dirname, 'dist', 'index.html'),
+            template: resolve(__dirname, 'index.html'),
             filename: './index.html'
         }),
         new webpack.HotModuleReplacementPlugin()
