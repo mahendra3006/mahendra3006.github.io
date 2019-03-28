@@ -22,7 +22,7 @@
     "start": "webpack-dev-server --open --mode development --content-base ./dist",
     "test": "npm run lint && npm run security-check && npm run bundle",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b master"
   },
   "dependencies": {},
   "devDependencies": {
