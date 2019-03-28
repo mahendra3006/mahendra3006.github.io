@@ -126,8 +126,8 @@
       "website": "http://mahendra3006.github.io/react-country-picker",
       "summary": "A Simple country picker application build with React and Redux.This calls a country API for fetching country information.",
       "image": {
-        "modal": "/public/images/cp.png",
-        "thumb": "/public/images/cp.png"
+        "modal": "/images/cp.png",
+        "thumb": "/images/cp.png"
       },
       "keywords": [
         "JavaScript",
